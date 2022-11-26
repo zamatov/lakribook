@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Cormorant+SC:wght@300;700&family=DM+Sans&family=Ibarra+Real+Nova&family=Koulen&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Poppins:wght@100&family=Roboto:wght@100&family=Tiro+Gurmukhi&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0 auto;
+    padding:0 auto ;
+    box-sizing: border-box;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    padding: 150px;
+    max-width: 1440px;
+    width: 100%;
+
+}
+
+
+    
+
+.section-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 87.3%;
+    /* or 35px */
+    margin-bottom: 80px;
+    color: #121212;
+}
+.section-gmail{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 118%;
+    /* or 19px */
+    
+    color: #7D7D7D;
+    width: 500px;
+    border: none;
+    border-bottom: 0.5px solid #7D7D7D;    
+}
+.section-password{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 118%;
+    /* or 19px */
+    margin-top: 41px;
+    margin-bottom: 33px;
+   
+    
+    color: #7D7D7D;
+    width: 500px;
+    border: 0px;
+    border-bottom: 0.5px solid #7D7D7D;
+}
+.section-no__password{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 118%;
+    /* or 19px */
+    margin-bottom: 35px;
+   position: absolute;
+   top: 150px;
+   left: 0px;
+    
+    color: #514A7E;
+}
+
+.section-sign{
+    width: 200px;
+    height: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+   
+    
+    color: #FFFDF5;
+    
+    background: #514A7E;
+    border: 0.5px solid #514A7E;
+}
+.up:hover{
+    
+    transform: scale(1.07, 1.04);
+    transition: 1s;
+}
+.polik{
+    position: absolute;
+    z-index: 2;
+    top: 70%;
+    left: 89%;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+}
+.section-regis{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 56px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px; 
+    background: white;
+    border: 0.5px solid #514A7E;
+    width: 200px;
+    height: 50px;
+    color: #121212;
+}
+.exit{
+    position: absolute;
+    z-index: 1;
+    top: 160px;
+    left: 1000px;
+    width: 57px;
+    height: 57px;
+    background: #514A7E;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.x{
+    width: 40%;
+    height: auto;
+}
+.body{
+    overflow: hidden;
+}
+
+/* стиль регистрации */
+
+.in{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 118%;
+    /* or 19px */
+   
+    margin-bottom: 33px;
+   
+    
+    color: #7D7D7D;
+    width: 350px;
+    border: 0px;
+    border-bottom: 0.5px solid #7D7D7D;
+}
+.box-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+}
+.inputs1{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.radio{
+    margin-top: 200px;
+display: inline-flex;
+column-gap: 4px;
+margin-bottom: 30px;
+}
+.section-btn{
+    margin-top: 300px;
+    z-index: 1;
+}
+
+@media (max-width: 375px){
+    .container{
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 100px;
+    }
+   
+    .polik{
+        display: none;
+    }
+    .section-title{
+        line-height: 87.3%;
+        font-size: 80px;
+        font-weight: 700;
+        width: 1000px;
+    }
+    .input{
+        left: 100px;
+        
+    }
+    .section-gmail{
+        font-weight: 700;
+        width: 840px;
+        font-size: 30px;
+        padding-bottom:10px ;
+    }
+    .section-password{
+        font-weight: 700;
+        width: 840px;
+        font-size: 30px;
+        padding-bottom:10px ;
+    }
+    .section-btn{
+        display: flex;
+        flex-direction: column;
+        row-gap:40px;
+
+    }
+    .exit{
+        top: 190px;
+        left: 850px;
+    }
+    .section-sign{
+        width: 840px;
+        height: 100px;
+        font-weight: 900;
+        font-size: 40px;
+    }
+    .section-regis{
+        width: 840px;
+        height: 100px;
+        font-weight: 900;
+        font-size: 40px;
+        margin-left: 0px;
+    }
+    .box-input{
+        margin-top: 30px;
+        flex-direction: column;
+        left: 100px;
+        row-gap: 20px;
+    }
+    .inputs1{
+        row-gap: 20px;
+    }
+    .radio{
+        margin-top: 600px;
+        
+    }
+    .yes{
+        font-size: 30px;
+        width: 1000px;
+        font-weight: 700;
+    }
+    .in{
+        font-weight: 700;
+        width: 840px;
+        font-size: 30px;
+        padding-bottom:10px ;
+    }
+}
